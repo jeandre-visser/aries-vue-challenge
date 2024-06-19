@@ -224,7 +224,7 @@ export default {
       // X-axis label
       svg
         .append("text")
-        .attr("text-anchor", "end")
+        .attr("text-anchor", "middle")
         .attr("x", width / 2)
         .attr("y", height + margin.bottom - 10)
         .text("Price of Underlying at Expiry");
@@ -232,7 +232,7 @@ export default {
       // Y-axis label
       svg
         .append("text")
-        .attr("text-anchor", "end")
+        .attr("text-anchor", "middle")
         .attr("transform", "rotate(-90)")
         .attr("x", -height / 2)
         .attr("y", -margin.left + 15)
